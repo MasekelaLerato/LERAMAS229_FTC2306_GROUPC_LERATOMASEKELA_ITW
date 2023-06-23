@@ -1,0 +1,15 @@
+h1{
+    color: violet;
+}
+a{
+    color: pink ;
+}
+h2,h3{
+    color: violet;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height: auto; width: 200px;
+}
