@@ -19,13 +19,13 @@ img {
   width: 200px;
   border-radius: 50%;
 }
-nav { 
-    color: lavender;
-    background-color: blueviolet;
-    width: 200px;
+nav {
+  color: lavender;
+  background-color: blueviolet;
+  width: 200px;
 }
 nav a {
-    color: lavender;
+  color: lavender;
 }
 section {
   margin-left: 100px;
@@ -33,11 +33,12 @@ section {
 
 header {
   background-color: grey;
-
+  margin: 0%;
 }
 footer {
   margin-left: 100px;
 }
-body{
-    border: 10px solid violet;
+body {
+  background-color: white;
+  border: 10px solid violet;
 }
