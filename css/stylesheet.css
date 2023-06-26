@@ -1,21 +1,43 @@
-h1{
-    color: violet;
+h1 {
+  color: violet;
+  margin-left: 400px;
 }
-a{
-    color: pink ;
-    background-color: black;
+a {
+  color: pink;
+  padding: 3px;
 }
-h2,h3{
-    color: violet;
+h2,
+h3 {
+  color: violet;
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
-img{
-    height: 250px; width: 200px;
-    border-radius: 50%
+img {
+  margin-left: 400px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
-nav{ 
-    color: burlywood;
-    background-color: black;
+nav { 
+    color: lavender;
+    background-color: blueviolet;
+    width: 200px;
+}
+nav a {
+    color: lavender;
+}
+section {
+  margin-left: 100px;
+}
+
+header {
+  background-color: grey;
+
+}
+footer {
+  margin-left: 100px;
+}
+body{
+    border: 10px solid violet;
 }
