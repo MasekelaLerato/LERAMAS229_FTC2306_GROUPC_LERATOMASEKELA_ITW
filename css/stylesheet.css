@@ -18,12 +18,17 @@ img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  position: relative;
+  top: 25px;
+  right: 390px;
 }
 nav {
   color: lavender;
   background-color: blueviolet;
   width: 200px;
- 
+  position: fixed;
+  top: 25px;
+  
 }
 nav a {
   color: lavender;
@@ -35,6 +40,7 @@ section {
 header {
   background-color: grey;
   margin: 0%;
+  position: static;
 }
 footer {
   margin-left: 100px;
@@ -43,6 +49,19 @@ body {
   background-color: white;
   border: 10px solid violet;
 }
-nav li{
-    margin: 10%;
+#back-to-top{
+    position: fixed;
+    border-radius: 50%;
+    right: 80px;
+    bottom: 80px;
+    padding: 10px;
+
 }
+button{
+    background-color: pink;
+    border-radius: 0px;
+    border: 25;
+    border-color: grey;
+}
+
+
