@@ -88,11 +88,10 @@ input {
   background-color: white;
 }
 
-/*small devices*/
-@media only screen and (min-width: 300px) {
+/*mobile devices*/
+@media only screen and (max-width: 480px) {
   body {
-    background-color: rgb(221, 135, 149);
-    font-size: medium;
+    font-size: small;
   }
   h1 {
     margin: 100px;
@@ -119,11 +118,10 @@ input {
   }
 }
 
-/*medium devices*/
-@media only screen and (min-width: 769px) {
+/*iPads/ tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   body {
-    font-size: x-large;
-    background-color: rgb(233, 94, 117);
+    font-size: medium;
   }
   section {
     margin: 0;
@@ -150,11 +148,10 @@ input {
   }
 }
 
-/*large devices*/
-@media only screen and (min-width: 1024px) {
+/*laptops*/
+@media only screen and (min-width: 769px) {
   body {
-    background-color: palevioletred;
-    font-size: xx-large;
+    font-size: large;
   }
   section {
     margin: 0;
