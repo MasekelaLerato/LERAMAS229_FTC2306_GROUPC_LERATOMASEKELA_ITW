@@ -47,7 +47,7 @@ footer {
 }
 body {
   background-color: white;
-  border: 10px solid violet ;
+  border: 10px solid violet;
   margin: 0;
 }
 #back-to-top {
@@ -78,7 +78,6 @@ input {
   color: purple;
 }
 .hero-banner {
-    
   background-image: url("abstract.jpg");
   height: 100%;
   background-position: center;
@@ -86,5 +85,97 @@ input {
   background-size: cover;
   position: relative;
   background-color: white;
-  
+}
+
+/*small devices*/
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: rgb(221, 135, 149);
+    font-size: medium;
+  }
+  h1 {
+    margin: 100px;
+  }
+  a {
+    color: blueviolet;
+  }
+  section {
+    margin: 0;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 2px;
+    right: 390px;
+  }
+  footer {
+    margin: 0;
+  }
+  form {
+    background-color: pink;
+    margin-left: 10px;
+  }
+}
+
+/*medium devices*/
+@media only screen and (min-width: 769px) {
+  body {
+    font-size: x-large;
+    background-color: rgb(233, 94, 117);
+  }
+  section {
+    margin: 0;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 2px;
+    right: 390px;
+  }
+  h1 {
+    margin: 250px;
+  }
+  footer {
+    margin: 0;
+  }
+  form {
+    background-color: pink;
+    margin-left: 10px;
+  }
+  a {
+    color: blueviolet;
+  }
+}
+
+/*large devices*/
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: palevioletred;
+    font-size: xx-large;
+  }
+  section {
+    margin: 0;
+  }
+  img {
+    width: 250;
+    height: 250px;
+    position: relative;
+    top: 2px;
+    right: 390px;
+  }
+  h1 {
+    margin: 350px;
+  }
+  footer {
+    margin: 0;
+  }
+  form {
+    background-color: pink;
+    margin-left: 10px;
+  }
+  a {
+    color: blueviolet;
+  }
 }
