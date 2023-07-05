@@ -49,6 +49,7 @@ body {
   background-color: white;
   border: 10px solid violet;
   margin: 0;
+  box-sizing: border-box;
 }
 #back-to-top {
   position: fixed;
